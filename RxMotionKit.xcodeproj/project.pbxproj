@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15BC27B1E54F8E90024EEB1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15BC27A1E54F8E90024EEB1 /* RxSwift.framework */; };
+		E15BC27D1E54FD120024EEB1 /* MotionResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BC27C1E54FD120024EEB1 /* MotionResultType.swift */; };
+		E15BC27F1E55042D0024EEB1 /* RxMotionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BC27E1E55042D0024EEB1 /* RxMotionKitTests.swift */; };
+		E15BC2811E5504340024EEB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E15BC2801E5504340024EEB1 /* Info.plist */; };
+		E17AEABF1E51152500D74F49 /* RxMotionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17AEAB51E51152500D74F49 /* RxMotionKit.framework */; };
+		E17AEAD21E5115ED00D74F49 /* RxMotionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E17AEAD01E5115ED00D74F49 /* RxMotionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17AEAF01E5116FD00D74F49 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAD91E5116FD00D74F49 /* Accelerometer.swift */; };
+		E17AEAF11E5116FD00D74F49 /* AnyMotionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEADA1E5116FD00D74F49 /* AnyMotionSource.swift */; };
+		E17AEAF21E5116FD00D74F49 /* Attitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEADB1E5116FD00D74F49 /* Attitude.swift */; };
+		E17AEAF31E5116FD00D74F49 /* CalibratedMagneticField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEADC1E5116FD00D74F49 /* CalibratedMagneticField.swift */; };
+		E17AEAF41E5116FD00D74F49 /* CalibratedMagneticFieldAccuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEADD1E5116FD00D74F49 /* CalibratedMagneticFieldAccuracy.swift */; };
+		E17AEAF51E5116FD00D74F49 /* CoreMotionManagerInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEADE1E5116FD00D74F49 /* CoreMotionManagerInitializable.swift */; };
+		E17AEAF61E5116FD00D74F49 /* DeviceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEADF1E5116FD00D74F49 /* DeviceMotion.swift */; };
+		E17AEAF71E5116FD00D74F49 /* Gyroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE01E5116FD00D74F49 /* Gyroscope.swift */; };
+		E17AEAF81E5116FD00D74F49 /* Magnetometr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE11E5116FD00D74F49 /* Magnetometr.swift */; };
+		E17AEAF91E5116FD00D74F49 /* MotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE21E5116FD00D74F49 /* MotionData.swift */; };
+		E17AEAFA1E5116FD00D74F49 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE31E5116FD00D74F49 /* MotionManager.swift */; };
+		E17AEAFB1E5116FD00D74F49 /* MotionManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE41E5116FD00D74F49 /* MotionManagerType.swift */; };
+		E17AEAFC1E5116FD00D74F49 /* MotionResultConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE51E5116FD00D74F49 /* MotionResultConverter.swift */; };
+		E17AEAFD1E5116FD00D74F49 /* MotionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE61E5116FD00D74F49 /* MotionSource.swift */; };
+		E17AEAFE1E5116FD00D74F49 /* MotionSourceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE71E5116FD00D74F49 /* MotionSourceError.swift */; };
+		E17AEAFF1E5116FD00D74F49 /* MotionSourcesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE81E5116FD00D74F49 /* MotionSourcesProvider.swift */; };
+		E17AEB001E5116FD00D74F49 /* MotionSourcesProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE91E5116FD00D74F49 /* MotionSourcesProviderType.swift */; };
+		E17AEB011E5116FD00D74F49 /* MotionSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAEA1E5116FD00D74F49 /* MotionSourceType.swift */; };
+		E17AEB021E5116FD00D74F49 /* Quaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAEB1E5116FD00D74F49 /* Quaternion.swift */; };
+		E17AEB031E5116FD00D74F49 /* ReferenceFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAEC1E5116FD00D74F49 /* ReferenceFrame.swift */; };
+		E17AEB041E5116FD00D74F49 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAED1E5116FD00D74F49 /* Result.swift */; };
+		E17AEB051E5116FD00D74F49 /* RotationMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAEE1E5116FD00D74F49 /* RotationMatrix.swift */; };
+		E17AEB061E5116FD00D74F49 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAEF1E5116FD00D74F49 /* Vector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E17AEAC01E51152500D74F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E17AEAAC1E51152500D74F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E17AEAB41E51152500D74F49;
+			remoteInfo = RxMotionKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E15BC27A1E54F8E90024EEB1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		E15BC27C1E54FD120024EEB1 /* MotionResultType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionResultType.swift; path = Sources/RxMotionKit/MotionResultType.swift; sourceTree = SOURCE_ROOT; };
+		E15BC27E1E55042D0024EEB1 /* RxMotionKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxMotionKitTests.swift; path = Tests/RxMotionKitTests/RxMotionKitTests.swift; sourceTree = SOURCE_ROOT; };
+		E15BC2801E5504340024EEB1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/RxMotionKitTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		E17AEAB51E51152500D74F49 /* RxMotionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMotionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17AEABE1E51152500D74F49 /* RxMotionKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMotionKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17AEACF1E5115ED00D74F49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/RxMotionKit/Info.plist; sourceTree = SOURCE_ROOT; };
+		E17AEAD01E5115ED00D74F49 /* RxMotionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxMotionKit.h; path = Sources/RxMotionKit/RxMotionKit.h; sourceTree = SOURCE_ROOT; };
+		E17AEAD91E5116FD00D74F49 /* Accelerometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Accelerometer.swift; path = Sources/RxMotionKit/Accelerometer.swift; sourceTree = SOURCE_ROOT; };
+		E17AEADA1E5116FD00D74F49 /* AnyMotionSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnyMotionSource.swift; path = Sources/RxMotionKit/AnyMotionSource.swift; sourceTree = SOURCE_ROOT; };
+		E17AEADB1E5116FD00D74F49 /* Attitude.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Attitude.swift; path = Sources/RxMotionKit/Attitude.swift; sourceTree = SOURCE_ROOT; };
+		E17AEADC1E5116FD00D74F49 /* CalibratedMagneticField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalibratedMagneticField.swift; path = Sources/RxMotionKit/CalibratedMagneticField.swift; sourceTree = SOURCE_ROOT; };
+		E17AEADD1E5116FD00D74F49 /* CalibratedMagneticFieldAccuracy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalibratedMagneticFieldAccuracy.swift; path = Sources/RxMotionKit/CalibratedMagneticFieldAccuracy.swift; sourceTree = SOURCE_ROOT; };
+		E17AEADE1E5116FD00D74F49 /* CoreMotionManagerInitializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreMotionManagerInitializable.swift; path = Sources/RxMotionKit/CoreMotionManagerInitializable.swift; sourceTree = SOURCE_ROOT; };
+		E17AEADF1E5116FD00D74F49 /* DeviceMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceMotion.swift; path = Sources/RxMotionKit/DeviceMotion.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE01E5116FD00D74F49 /* Gyroscope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gyroscope.swift; path = Sources/RxMotionKit/Gyroscope.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE11E5116FD00D74F49 /* Magnetometr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Magnetometr.swift; path = Sources/RxMotionKit/Magnetometr.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE21E5116FD00D74F49 /* MotionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionData.swift; path = Sources/RxMotionKit/MotionData.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE31E5116FD00D74F49 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionManager.swift; path = Sources/RxMotionKit/MotionManager.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE41E5116FD00D74F49 /* MotionManagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionManagerType.swift; path = Sources/RxMotionKit/MotionManagerType.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE51E5116FD00D74F49 /* MotionResultConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionResultConverter.swift; path = Sources/RxMotionKit/MotionResultConverter.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE61E5116FD00D74F49 /* MotionSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionSource.swift; path = Sources/RxMotionKit/MotionSource.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE71E5116FD00D74F49 /* MotionSourceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionSourceError.swift; path = Sources/RxMotionKit/MotionSourceError.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE81E5116FD00D74F49 /* MotionSourcesProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionSourcesProvider.swift; path = Sources/RxMotionKit/MotionSourcesProvider.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE91E5116FD00D74F49 /* MotionSourcesProviderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionSourcesProviderType.swift; path = Sources/RxMotionKit/MotionSourcesProviderType.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAEA1E5116FD00D74F49 /* MotionSourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionSourceType.swift; path = Sources/RxMotionKit/MotionSourceType.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAEB1E5116FD00D74F49 /* Quaternion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quaternion.swift; path = Sources/RxMotionKit/Quaternion.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAEC1E5116FD00D74F49 /* ReferenceFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReferenceFrame.swift; path = Sources/RxMotionKit/ReferenceFrame.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAED1E5116FD00D74F49 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/RxMotionKit/Result.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAEE1E5116FD00D74F49 /* RotationMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RotationMatrix.swift; path = Sources/RxMotionKit/RotationMatrix.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAEF1E5116FD00D74F49 /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vector.swift; path = Sources/RxMotionKit/Vector.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E17AEAB11E51152500D74F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15BC27B1E54F8E90024EEB1 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17AEABB1E51152500D74F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17AEABF1E51152500D74F49 /* RxMotionKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15BC2441E5119C60024EEB1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E17AEAE41E5116FD00D74F49 /* MotionManagerType.swift */,
+				E17AEAE31E5116FD00D74F49 /* MotionManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		E15BC2451E5119CD0024EEB1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E17AEADA1E5116FD00D74F49 /* AnyMotionSource.swift */,
+				E17AEAD91E5116FD00D74F49 /* Accelerometer.swift */,
+				E17AEAE01E5116FD00D74F49 /* Gyroscope.swift */,
+				E17AEAE11E5116FD00D74F49 /* Magnetometr.swift */,
+				E17AEADF1E5116FD00D74F49 /* DeviceMotion.swift */,
+				E17AEAE61E5116FD00D74F49 /* MotionSource.swift */,
+				E17AEAE91E5116FD00D74F49 /* MotionSourcesProviderType.swift */,
+				E17AEAE81E5116FD00D74F49 /* MotionSourcesProvider.swift */,
+				E15BC27C1E54FD120024EEB1 /* MotionResultType.swift */,
+				E17AEAE51E5116FD00D74F49 /* MotionResultConverter.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E15BC2461E5119D40024EEB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E17AEAEA1E5116FD00D74F49 /* MotionSourceType.swift */,
+				E17AEAE71E5116FD00D74F49 /* MotionSourceError.swift */,
+				E17AEAEB1E5116FD00D74F49 /* Quaternion.swift */,
+				E17AEAEC1E5116FD00D74F49 /* ReferenceFrame.swift */,
+				E17AEAED1E5116FD00D74F49 /* Result.swift */,
+				E17AEADB1E5116FD00D74F49 /* Attitude.swift */,
+				E17AEAEE1E5116FD00D74F49 /* RotationMatrix.swift */,
+				E17AEAEF1E5116FD00D74F49 /* Vector.swift */,
+				E17AEADC1E5116FD00D74F49 /* CalibratedMagneticField.swift */,
+				E17AEADD1E5116FD00D74F49 /* CalibratedMagneticFieldAccuracy.swift */,
+				E17AEAE21E5116FD00D74F49 /* MotionData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E15BC2471E511A2D0024EEB1 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				E17AEADE1E5116FD00D74F49 /* CoreMotionManagerInitializable.swift */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		E15BC2791E54F8E90024EEB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E15BC27A1E54F8E90024EEB1 /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17AEAAB1E51152500D74F49 = {
+			isa = PBXGroup;
+			children = (
+				E17AEAB71E51152500D74F49 /* RxMotionKit */,
+				E17AEAC21E51152500D74F49 /* RxMotionKitTests */,
+				E17AEAB61E51152500D74F49 /* Products */,
+				E15BC2791E54F8E90024EEB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E17AEAB61E51152500D74F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E17AEAB51E51152500D74F49 /* RxMotionKit.framework */,
+				E17AEABE1E51152500D74F49 /* RxMotionKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E17AEAB71E51152500D74F49 /* RxMotionKit */ = {
+			isa = PBXGroup;
+			children = (
+				E15BC2461E5119D40024EEB1 /* Model */,
+				E15BC2451E5119CD0024EEB1 /* Source */,
+				E15BC2441E5119C60024EEB1 /* Manager */,
+				E15BC2471E511A2D0024EEB1 /* Misc */,
+				E17AEAD71E51160600D74F49 /* Supproting files */,
+			);
+			path = RxMotionKit;
+			sourceTree = "<group>";
+		};
+		E17AEAC21E51152500D74F49 /* RxMotionKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E15BC27E1E55042D0024EEB1 /* RxMotionKitTests.swift */,
+				E17AEAD81E51162300D74F49 /* Supproting files */,
+			);
+			path = RxMotionKitTests;
+			sourceTree = "<group>";
+		};
+		E17AEAD71E51160600D74F49 /* Supproting files */ = {
+			isa = PBXGroup;
+			children = (
+				E17AEAD01E5115ED00D74F49 /* RxMotionKit.h */,
+				E17AEACF1E5115ED00D74F49 /* Info.plist */,
+			);
+			name = "Supproting files";
+			sourceTree = "<group>";
+		};
+		E17AEAD81E51162300D74F49 /* Supproting files */ = {
+			isa = PBXGroup;
+			children = (
+				E15BC2801E5504340024EEB1 /* Info.plist */,
+			);
+			name = "Supproting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E17AEAB21E51152500D74F49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17AEAD21E5115ED00D74F49 /* RxMotionKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E17AEAB41E51152500D74F49 /* RxMotionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17AEAC91E51152500D74F49 /* Build configuration list for PBXNativeTarget "RxMotionKit" */;
+			buildPhases = (
+				E17AEAB01E51152500D74F49 /* Sources */,
+				E17AEAB11E51152500D74F49 /* Frameworks */,
+				E17AEAB21E51152500D74F49 /* Headers */,
+				E17AEAB31E51152500D74F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxMotionKit;
+			productName = RxMotionKit;
+			productReference = E17AEAB51E51152500D74F49 /* RxMotionKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E17AEABD1E51152500D74F49 /* RxMotionKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17AEACC1E51152500D74F49 /* Build configuration list for PBXNativeTarget "RxMotionKitTests" */;
+			buildPhases = (
+				E17AEABA1E51152500D74F49 /* Sources */,
+				E17AEABB1E51152500D74F49 /* Frameworks */,
+				E17AEABC1E51152500D74F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E17AEAC11E51152500D74F49 /* PBXTargetDependency */,
+			);
+			name = RxMotionKitTests;
+			productName = RxMotionKitTests;
+			productReference = E17AEABE1E51152500D74F49 /* RxMotionKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E17AEAAC1E51152500D74F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Robert Sobolewski";
+				TargetAttributes = {
+					E17AEAB41E51152500D74F49 = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					E17AEABD1E51152500D74F49 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E17AEAAF1E51152500D74F49 /* Build configuration list for PBXProject "RxMotionKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E17AEAAB1E51152500D74F49;
+			productRefGroup = E17AEAB61E51152500D74F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E17AEAB41E51152500D74F49 /* RxMotionKit */,
+				E17AEABD1E51152500D74F49 /* RxMotionKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E17AEAB31E51152500D74F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15BC2811E5504340024EEB1 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17AEABC1E51152500D74F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E17AEAB01E51152500D74F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17AEB051E5116FD00D74F49 /* RotationMatrix.swift in Sources */,
+				E17AEB001E5116FD00D74F49 /* MotionSourcesProviderType.swift in Sources */,
+				E17AEAF21E5116FD00D74F49 /* Attitude.swift in Sources */,
+				E17AEAF51E5116FD00D74F49 /* CoreMotionManagerInitializable.swift in Sources */,
+				E17AEAFE1E5116FD00D74F49 /* MotionSourceError.swift in Sources */,
+				E17AEB021E5116FD00D74F49 /* Quaternion.swift in Sources */,
+				E17AEAF61E5116FD00D74F49 /* DeviceMotion.swift in Sources */,
+				E17AEAF31E5116FD00D74F49 /* CalibratedMagneticField.swift in Sources */,
+				E17AEB031E5116FD00D74F49 /* ReferenceFrame.swift in Sources */,
+				E17AEB061E5116FD00D74F49 /* Vector.swift in Sources */,
+				E17AEAFC1E5116FD00D74F49 /* MotionResultConverter.swift in Sources */,
+				E17AEB041E5116FD00D74F49 /* Result.swift in Sources */,
+				E17AEAFD1E5116FD00D74F49 /* MotionSource.swift in Sources */,
+				E17AEB011E5116FD00D74F49 /* MotionSourceType.swift in Sources */,
+				E17AEAF11E5116FD00D74F49 /* AnyMotionSource.swift in Sources */,
+				E17AEAF71E5116FD00D74F49 /* Gyroscope.swift in Sources */,
+				E15BC27D1E54FD120024EEB1 /* MotionResultType.swift in Sources */,
+				E17AEAFA1E5116FD00D74F49 /* MotionManager.swift in Sources */,
+				E17AEAFF1E5116FD00D74F49 /* MotionSourcesProvider.swift in Sources */,
+				E17AEAFB1E5116FD00D74F49 /* MotionManagerType.swift in Sources */,
+				E15BC27F1E55042D0024EEB1 /* RxMotionKitTests.swift in Sources */,
+				E17AEAF81E5116FD00D74F49 /* Magnetometr.swift in Sources */,
+				E17AEAF41E5116FD00D74F49 /* CalibratedMagneticFieldAccuracy.swift in Sources */,
+				E17AEAF01E5116FD00D74F49 /* Accelerometer.swift in Sources */,
+				E17AEAF91E5116FD00D74F49 /* MotionData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E17AEABA1E51152500D74F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E17AEAC11E51152500D74F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E17AEAB41E51152500D74F49 /* RxMotionKit */;
+			targetProxy = E17AEAC01E51152500D74F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E17AEAC71E51152500D74F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E17AEAC81E51152500D74F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E17AEACA1E51152500D74F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/RxMotionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E17AEACB1E51152500D74F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/RxMotionKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E17AEACD1E51152500D74F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RxMotionKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E17AEACE1E51152500D74F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RxMotionKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E17AEAAF1E51152500D74F49 /* Build configuration list for PBXProject "RxMotionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17AEAC71E51152500D74F49 /* Debug */,
+				E17AEAC81E51152500D74F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17AEAC91E51152500D74F49 /* Build configuration list for PBXNativeTarget "RxMotionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17AEACA1E51152500D74F49 /* Debug */,
+				E17AEACB1E51152500D74F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17AEACC1E51152500D74F49 /* Build configuration list for PBXNativeTarget "RxMotionKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17AEACD1E51152500D74F49 /* Debug */,
+				E17AEACE1E51152500D74F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E17AEAAC1E51152500D74F49 /* Project object */;
+}
