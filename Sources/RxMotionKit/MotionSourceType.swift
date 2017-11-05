@@ -51,7 +51,7 @@ public enum MotionSourceType: Int {
 }
 
 public func == (lhs: MotionSourceType, rhs: MotionSourceType) -> Bool {
-    return true
+    return lhs.rawValue == rhs.rawValue
 }
 extension MotionSourceType: Equatable {}
 
