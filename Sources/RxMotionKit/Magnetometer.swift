@@ -42,7 +42,7 @@ internal class Magnetometer: MotionSource, CoreMotionManagerInitializable {
     internal let _rx_didUpdateData = PublishSubject<MotionData>()
     
     internal var type: MotionSourceType {
-        return .magnetometr
+        return .magnetometer
     }
     
     internal var isActive: Bool {
@@ -63,7 +63,7 @@ internal class Magnetometer: MotionSource, CoreMotionManagerInitializable {
                 self._rx_didUpdateData.onError(error)
             case .success(let data):
                 self._rx_didUpdateData.onNext(
-                    .magnetometr(
+                    .magnetometer(
                         magneticField: Vector(data)
                     )
                 )

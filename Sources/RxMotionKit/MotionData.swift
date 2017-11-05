@@ -34,7 +34,7 @@ public enum MotionData {
     case gyroscope(rotationRate: Vector)
     
     /// Data received from magnetometer
-    case magnetometr(magneticField: Vector)
+    case magnetometer(magneticField: Vector)
     
     /// Data received from device motion
     case deviceMotion(

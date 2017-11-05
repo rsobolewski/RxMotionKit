@@ -41,7 +41,7 @@ extension CMGyroData: MotionResultType {
 }
 
 extension CMMagnetometerData: MotionResultType {
-    static var sourceType: MotionSourceType = .magnetometr
+    static var sourceType: MotionSourceType = .magnetometer
 }
 
 extension CMDeviceMotion: MotionResultType {

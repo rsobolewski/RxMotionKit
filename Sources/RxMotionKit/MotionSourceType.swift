@@ -34,7 +34,7 @@ public enum MotionSourceType: Int {
     case gyroscope
     
     /// Magnetometer
-    case magnetometr
+    case magnetometer
     
     /// Device motion
     case deviceMotion
@@ -44,7 +44,7 @@ public enum MotionSourceType: Int {
         return [
             .accelerometr,
             .gyroscope,
-            .magnetometr,
+            .magnetometer,
             .deviceMotion
         ]
     }

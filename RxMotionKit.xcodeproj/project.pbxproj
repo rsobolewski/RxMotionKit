@@ -21,7 +21,7 @@
 		E17AEAF51E5116FD00D74F49 /* CoreMotionManagerInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEADE1E5116FD00D74F49 /* CoreMotionManagerInitializable.swift */; };
 		E17AEAF61E5116FD00D74F49 /* DeviceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEADF1E5116FD00D74F49 /* DeviceMotion.swift */; };
 		E17AEAF71E5116FD00D74F49 /* Gyroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE01E5116FD00D74F49 /* Gyroscope.swift */; };
-		E17AEAF81E5116FD00D74F49 /* Magnetometr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE11E5116FD00D74F49 /* Magnetometr.swift */; };
+		E17AEAF81E5116FD00D74F49 /* Magnetometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE11E5116FD00D74F49 /* Magnetometer.swift */; };
 		E17AEAF91E5116FD00D74F49 /* MotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE21E5116FD00D74F49 /* MotionData.swift */; };
 		E17AEAFA1E5116FD00D74F49 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE31E5116FD00D74F49 /* MotionManager.swift */; };
 		E17AEAFB1E5116FD00D74F49 /* MotionManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAE41E5116FD00D74F49 /* MotionManagerType.swift */; };
@@ -65,7 +65,7 @@
 		E17AEADE1E5116FD00D74F49 /* CoreMotionManagerInitializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreMotionManagerInitializable.swift; path = Sources/RxMotionKit/CoreMotionManagerInitializable.swift; sourceTree = SOURCE_ROOT; };
 		E17AEADF1E5116FD00D74F49 /* DeviceMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceMotion.swift; path = Sources/RxMotionKit/DeviceMotion.swift; sourceTree = SOURCE_ROOT; };
 		E17AEAE01E5116FD00D74F49 /* Gyroscope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gyroscope.swift; path = Sources/RxMotionKit/Gyroscope.swift; sourceTree = SOURCE_ROOT; };
-		E17AEAE11E5116FD00D74F49 /* Magnetometr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Magnetometr.swift; path = Sources/RxMotionKit/Magnetometr.swift; sourceTree = SOURCE_ROOT; };
+		E17AEAE11E5116FD00D74F49 /* Magnetometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Magnetometer.swift; path = Sources/RxMotionKit/Magnetometer.swift; sourceTree = SOURCE_ROOT; };
 		E17AEAE21E5116FD00D74F49 /* MotionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionData.swift; path = Sources/RxMotionKit/MotionData.swift; sourceTree = SOURCE_ROOT; };
 		E17AEAE31E5116FD00D74F49 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionManager.swift; path = Sources/RxMotionKit/MotionManager.swift; sourceTree = SOURCE_ROOT; };
 		E17AEAE41E5116FD00D74F49 /* MotionManagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionManagerType.swift; path = Sources/RxMotionKit/MotionManagerType.swift; sourceTree = SOURCE_ROOT; };
@@ -117,7 +117,7 @@
 				E17AEADA1E5116FD00D74F49 /* AnyMotionSource.swift */,
 				E17AEAD91E5116FD00D74F49 /* Accelerometer.swift */,
 				E17AEAE01E5116FD00D74F49 /* Gyroscope.swift */,
-				E17AEAE11E5116FD00D74F49 /* Magnetometr.swift */,
+				E17AEAE11E5116FD00D74F49 /* Magnetometer.swift */,
 				E17AEADF1E5116FD00D74F49 /* DeviceMotion.swift */,
 				E17AEAE61E5116FD00D74F49 /* MotionSource.swift */,
 				E17AEAE91E5116FD00D74F49 /* MotionSourcesProviderType.swift */,
@@ -352,7 +352,7 @@
 				E17AEAFF1E5116FD00D74F49 /* MotionSourcesProvider.swift in Sources */,
 				E17AEAFB1E5116FD00D74F49 /* MotionManagerType.swift in Sources */,
 				E15BC27F1E55042D0024EEB1 /* RxMotionKitTests.swift in Sources */,
-				E17AEAF81E5116FD00D74F49 /* Magnetometr.swift in Sources */,
+				E17AEAF81E5116FD00D74F49 /* Magnetometer.swift in Sources */,
 				E17AEAF41E5116FD00D74F49 /* CalibratedMagneticFieldAccuracy.swift in Sources */,
 				E17AEAF01E5116FD00D74F49 /* Accelerometer.swift in Sources */,
 				E17AEAF91E5116FD00D74F49 /* MotionData.swift in Sources */,

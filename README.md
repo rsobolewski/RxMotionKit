@@ -88,7 +88,7 @@ and start updating selected sources:
 motionManager.startUpdating([
     .accelerometr,
     .gyroscope,
-    .magnetometr,
+    .magnetometer,
     .deviceMotion
     ],
     withInterval: 5.0
@@ -113,7 +113,7 @@ To stop updates from selected sources:
 motionManager.stopUpdating([
     .accelerometr,
     .gyroscope,
-    .magnetometr,
+    .magnetometer,
     .deviceMotion
 ])
 ```
@@ -124,7 +124,7 @@ All motion sources that are available:
 
 - `accelerometr` - Accelerometer
 - `gyroscope` - Gyroscope
-- `magnetometr` - Magnetometr
+- `magnetometer` - Magnetometer
 - `deviceMotion` - DeviceMotion
 
 Also you can conveniently specify all motion sources using `MotionSourceType.all`.
