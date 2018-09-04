@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files          = 'Sources/RxMotionKit/*.swift'  
   s.frameworks            = 'Foundation', 'CoreMotion'
   
-  s.dependency 'RxSwift', '~> 3.0'
+  s.dependency 'RxSwift', '~> 4.0'
 end
