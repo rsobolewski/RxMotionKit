@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D34EF72F213E1E0A009DCF9C /* RxMotionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BC27E1E55042D0024EEB1 /* RxMotionKitTests.swift */; };
 		E15BC27B1E54F8E90024EEB1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15BC27A1E54F8E90024EEB1 /* RxSwift.framework */; };
 		E15BC27D1E54FD120024EEB1 /* MotionResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BC27C1E54FD120024EEB1 /* MotionResultType.swift */; };
-		E15BC27F1E55042D0024EEB1 /* RxMotionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BC27E1E55042D0024EEB1 /* RxMotionKitTests.swift */; };
-		E15BC2811E5504340024EEB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E15BC2801E5504340024EEB1 /* Info.plist */; };
 		E17AEABF1E51152500D74F49 /* RxMotionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17AEAB51E51152500D74F49 /* RxMotionKit.framework */; };
 		E17AEAD21E5115ED00D74F49 /* RxMotionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E17AEAD01E5115ED00D74F49 /* RxMotionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E17AEAF01E5116FD00D74F49 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAD91E5116FD00D74F49 /* Accelerometer.swift */; };
@@ -281,11 +280,12 @@
 				TargetAttributes = {
 					E17AEAB41E51152500D74F49 = {
 						CreatedOnToolsVersion = 8.2;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					E17AEABD1E51152500D74F49 = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -313,7 +313,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15BC2811E5504340024EEB1 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +350,6 @@
 				E17AEAFA1E5116FD00D74F49 /* MotionManager.swift in Sources */,
 				E17AEAFF1E5116FD00D74F49 /* MotionSourcesProvider.swift in Sources */,
 				E17AEAFB1E5116FD00D74F49 /* MotionManagerType.swift in Sources */,
-				E15BC27F1E55042D0024EEB1 /* RxMotionKitTests.swift in Sources */,
 				E17AEAF81E5116FD00D74F49 /* Magnetometer.swift in Sources */,
 				E17AEAF41E5116FD00D74F49 /* CalibratedMagneticFieldAccuracy.swift in Sources */,
 				E17AEAF01E5116FD00D74F49 /* Accelerometer.swift in Sources */,
@@ -363,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34EF72F213E1E0A009DCF9C /* RxMotionKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +496,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -521,7 +521,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -529,11 +530,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = RxMotionKitTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/RxMotionKitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -541,11 +543,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = RxMotionKitTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/RxMotionKitTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
