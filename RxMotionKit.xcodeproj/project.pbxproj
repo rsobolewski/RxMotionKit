@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E15BC27B1E54F8E90024EEB1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15BC27A1E54F8E90024EEB1 /* RxSwift.framework */; };
+		974BBCA82280869500D62442 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974BBCA62280869500D62442 /* RxSwift.framework */; };
+		974BBCAA2280869500D62442 /* RxSwift.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 974BBCA72280869500D62442 /* RxSwift.framework.dSYM */; };
 		E15BC27D1E54FD120024EEB1 /* MotionResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BC27C1E54FD120024EEB1 /* MotionResultType.swift */; };
-		E15BC27F1E55042D0024EEB1 /* RxMotionKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15BC27E1E55042D0024EEB1 /* RxMotionKitTests.swift */; };
-		E15BC2811E5504340024EEB1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E15BC2801E5504340024EEB1 /* Info.plist */; };
-		E17AEABF1E51152500D74F49 /* RxMotionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17AEAB51E51152500D74F49 /* RxMotionKit.framework */; };
 		E17AEAD21E5115ED00D74F49 /* RxMotionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E17AEAD01E5115ED00D74F49 /* RxMotionKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E17AEAF01E5116FD00D74F49 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAD91E5116FD00D74F49 /* Accelerometer.swift */; };
 		E17AEAF11E5116FD00D74F49 /* AnyMotionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEADA1E5116FD00D74F49 /* AnyMotionSource.swift */; };
@@ -38,23 +36,11 @@
 		E17AEB061E5116FD00D74F49 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AEAEF1E5116FD00D74F49 /* Vector.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E17AEAC01E51152500D74F49 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E17AEAAC1E51152500D74F49 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E17AEAB41E51152500D74F49;
-			remoteInfo = RxMotionKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		E15BC27A1E54F8E90024EEB1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		974BBCA62280869500D62442 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		974BBCA72280869500D62442 /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = RxSwift.framework.dSYM; sourceTree = "<group>"; };
 		E15BC27C1E54FD120024EEB1 /* MotionResultType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionResultType.swift; path = Sources/RxMotionKit/MotionResultType.swift; sourceTree = SOURCE_ROOT; };
-		E15BC27E1E55042D0024EEB1 /* RxMotionKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxMotionKitTests.swift; path = Tests/RxMotionKitTests/RxMotionKitTests.swift; sourceTree = SOURCE_ROOT; };
-		E15BC2801E5504340024EEB1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/RxMotionKitTests/Info.plist; sourceTree = SOURCE_ROOT; };
 		E17AEAB51E51152500D74F49 /* RxMotionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMotionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E17AEABE1E51152500D74F49 /* RxMotionKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMotionKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17AEACF1E5115ED00D74F49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/RxMotionKit/Info.plist; sourceTree = SOURCE_ROOT; };
 		E17AEAD01E5115ED00D74F49 /* RxMotionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxMotionKit.h; path = Sources/RxMotionKit/RxMotionKit.h; sourceTree = SOURCE_ROOT; };
 		E17AEAD91E5116FD00D74F49 /* Accelerometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Accelerometer.swift; path = Sources/RxMotionKit/Accelerometer.swift; sourceTree = SOURCE_ROOT; };
@@ -87,15 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15BC27B1E54F8E90024EEB1 /* RxSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E17AEABB1E51152500D74F49 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E17AEABF1E51152500D74F49 /* RxMotionKit.framework in Frameworks */,
+				974BBCA82280869500D62442 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +135,8 @@
 		E15BC2791E54F8E90024EEB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E15BC27A1E54F8E90024EEB1 /* RxSwift.framework */,
+				974BBCA62280869500D62442 /* RxSwift.framework */,
+				974BBCA72280869500D62442 /* RxSwift.framework.dSYM */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				E17AEAB71E51152500D74F49 /* RxMotionKit */,
-				E17AEAC21E51152500D74F49 /* RxMotionKitTests */,
 				E17AEAB61E51152500D74F49 /* Products */,
 				E15BC2791E54F8E90024EEB1 /* Frameworks */,
 			);
@@ -176,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				E17AEAB51E51152500D74F49 /* RxMotionKit.framework */,
-				E17AEABE1E51152500D74F49 /* RxMotionKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,28 +170,11 @@
 			path = RxMotionKit;
 			sourceTree = "<group>";
 		};
-		E17AEAC21E51152500D74F49 /* RxMotionKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				E15BC27E1E55042D0024EEB1 /* RxMotionKitTests.swift */,
-				E17AEAD81E51162300D74F49 /* Supproting files */,
-			);
-			path = RxMotionKitTests;
-			sourceTree = "<group>";
-		};
 		E17AEAD71E51160600D74F49 /* Supproting files */ = {
 			isa = PBXGroup;
 			children = (
 				E17AEAD01E5115ED00D74F49 /* RxMotionKit.h */,
 				E17AEACF1E5115ED00D74F49 /* Info.plist */,
-			);
-			name = "Supproting files";
-			sourceTree = "<group>";
-		};
-		E17AEAD81E51162300D74F49 /* Supproting files */ = {
-			isa = PBXGroup;
-			children = (
-				E15BC2801E5504340024EEB1 /* Info.plist */,
 			);
 			name = "Supproting files";
 			sourceTree = "<group>";
@@ -251,24 +211,6 @@
 			productReference = E17AEAB51E51152500D74F49 /* RxMotionKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E17AEABD1E51152500D74F49 /* RxMotionKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E17AEACC1E51152500D74F49 /* Build configuration list for PBXNativeTarget "RxMotionKitTests" */;
-			buildPhases = (
-				E17AEABA1E51152500D74F49 /* Sources */,
-				E17AEABB1E51152500D74F49 /* Frameworks */,
-				E17AEABC1E51152500D74F49 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E17AEAC11E51152500D74F49 /* PBXTargetDependency */,
-			);
-			name = RxMotionKitTests;
-			productName = RxMotionKitTests;
-			productReference = E17AEABE1E51152500D74F49 /* RxMotionKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -276,7 +218,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Robert Sobolewski";
 				TargetAttributes = {
 					E17AEAB41E51152500D74F49 = {
@@ -284,18 +226,15 @@
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
-					E17AEABD1E51152500D74F49 = {
-						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = E17AEAAF1E51152500D74F49 /* Build configuration list for PBXProject "RxMotionKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E17AEAAB1E51152500D74F49;
 			productRefGroup = E17AEAB61E51152500D74F49 /* Products */;
@@ -303,7 +242,6 @@
 			projectRoot = "";
 			targets = (
 				E17AEAB41E51152500D74F49 /* RxMotionKit */,
-				E17AEABD1E51152500D74F49 /* RxMotionKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,14 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15BC2811E5504340024EEB1 /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E17AEABC1E51152500D74F49 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				974BBCAA2280869500D62442 /* RxSwift.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +282,6 @@
 				E17AEAFA1E5116FD00D74F49 /* MotionManager.swift in Sources */,
 				E17AEAFF1E5116FD00D74F49 /* MotionSourcesProvider.swift in Sources */,
 				E17AEAFB1E5116FD00D74F49 /* MotionManagerType.swift in Sources */,
-				E15BC27F1E55042D0024EEB1 /* RxMotionKitTests.swift in Sources */,
 				E17AEAF81E5116FD00D74F49 /* Magnetometer.swift in Sources */,
 				E17AEAF41E5116FD00D74F49 /* CalibratedMagneticFieldAccuracy.swift in Sources */,
 				E17AEAF01E5116FD00D74F49 /* Accelerometer.swift in Sources */,
@@ -359,42 +289,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E17AEABA1E51152500D74F49 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E17AEAC11E51152500D74F49 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E17AEAB41E51152500D74F49 /* RxMotionKit */;
-			targetProxy = E17AEAC01E51152500D74F49 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E17AEAC71E51152500D74F49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -424,6 +348,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -434,20 +359,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -469,6 +403,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -489,6 +424,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/RxMotionKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -497,7 +433,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -514,6 +450,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/RxMotionKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -521,31 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		E17AEACD1E51152500D74F49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = RxMotionKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		E17AEACE1E51152500D74F49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = RxMotionKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rsobolewski.RxMotionKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -566,15 +479,6 @@
 			buildConfigurations = (
 				E17AEACA1E51152500D74F49 /* Debug */,
 				E17AEACB1E51152500D74F49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E17AEACC1E51152500D74F49 /* Build configuration list for PBXNativeTarget "RxMotionKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E17AEACD1E51152500D74F49 /* Debug */,
-				E17AEACE1E51152500D74F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
